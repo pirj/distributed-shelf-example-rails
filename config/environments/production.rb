@@ -46,4 +46,10 @@ App::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  require 'dshelf'
+  DistributedShelf::config = {
+    :distributed_path => 'upload',
+    :storage_url => ENV['DISTRIBUTED_SHELF_URL']
+  }
 end
