@@ -1,0 +1,587 @@
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:17:19 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/uploads" for 127.0.0.1 at Sun Oct 24 07:20:24 +0400 2010
+
+ActionController::RoutingError (uninitialized constant UploadsController):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:20:35 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:21:37 +0400 2010
+  Processing by UploadController#index as HTML
+Completed   in 317ms
+
+ActionView::MissingTemplate (Missing template upload/index with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:22:10 +0400 2010
+  Processing by UploadController#index as HTML
+Completed   in 19ms
+
+ActionView::MissingTemplate (Missing template upload/index with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:23:00 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 369ms (Views: 366.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:23:29 +0400 2010
+  Processing by UploadController#index as HTML
+Completed   in 20ms
+
+ActionView::MissingTemplate (Missing template upload/index with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.3ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:24:39 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:24:55 +0400 2010
+
+AbstractController::ActionNotFound (The action 'create' could not be found for UploadController):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.7ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:25:32 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"file"=>#<File:/tmp/RackMultipart20101024-9163-122h82s-0>}
+Completed   in 2ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (42.9ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (73.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:26:08 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 44ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:26:15 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"file"=>#<File:/tmp/RackMultipart20101024-9163-i91pb0-0>}
+Completed   in 2ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (47.4ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (77.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:30:13 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"file"=>#<File:/tmp/RackMultipart20101024-9163-klclrn-0>}
+Completed   in 4ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.2ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (62.9ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (115.7ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:30:19 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 105ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:30:27 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-1jl7kzb-0>}
+Completed   in 36ms
+
+ActionView::MissingTemplate (Missing template upload/create with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (6.9ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:32:15 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-1w3dgr5-0>}
+Completed   in 13ms
+
+NoMethodError (undefined method `redirect' for #<UploadController:0x3332590>):
+  app/controllers/upload_controller.rb:6:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (39.3ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.5ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:32:24 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-l2zvis-0>}
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:32:34 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:32:45 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:32:52 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-gnzvc7-0>}
+Redirected to 
+Completed   in 16ms
+
+NoMethodError (undefined method `index_url' for #<UploadController:0x343a3fc>):
+  app/controllers/upload_controller.rb:6:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (76.4ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (102.5ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:33:13 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-1hxwntf-0>}
+Redirected to http://localhost:3000/upload
+Completed 302 Found in 4ms
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:33:13 +0400 2010
+  Processing by UploadController#index as */*
+Rendered upload/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 106ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:34:33 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-93el58-0>}
+Completed   in 4ms
+
+NoMethodError (undefined method `[]' for #<File:/tmp/RackMultipart20101024-9163-93el58-0>):
+  app/controllers/upload_controller.rb:7:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (38.5ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.2ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:37:06 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-3203wv-0>}
+Completed   in 5ms
+
+NoMethodError (undefined method `[]' for #<File:/tmp/RackMultipart20101024-9163-3203wv-0>):
+  app/controllers/upload_controller.rb:8:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (37.7ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (68.1ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:38:39 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-vz5izy-0>}
+Completed   in 5ms
+
+NoMethodError (undefined method `basename' for #<File:/tmp/RackMultipart20101024-9163-vz5izy-0>):
+  app/controllers/upload_controller.rb:8:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (90.5ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (119.7ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:42:33 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-1mwkhia-0>}
+Completed   in 6ms
+
+NoMethodError (undefined method `basename' for #<File:/tmp/RackMultipart20101024-9163-1mwkhia-0>):
+  app/controllers/upload_controller.rb:10:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (42.9ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.3ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:44:03 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "file"=>#<File:/tmp/RackMultipart20101024-9163-l1fzgo-0>}
+Completed   in 16ms
+
+NoMethodError (undefined method `basename' for #<File:/tmp/RackMultipart20101024-9163-l1fzgo-0>):
+  app/controllers/upload_controller.rb:10:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.2ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.3ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:45:38 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (4.9ms)
+Completed   in 37ms
+
+ActionView::Template::Error (No route matches {:controller=>"upload", :action=>"upload"}):
+    1: <% form_tag( {:action => 'upload'}, {:multipart => true})  do %>
+    2: <%= file_field 'upload', 'file' %>
+    3: <%= submit_tag "Upload" %>
+    4: <% end %>
+  app/views/upload/index.html.erb:1:in `_app_views_upload_index_html_erb__1060701331_26807100_0'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (26.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (52.7ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:46:20 +0400 2010
+  Processing by UploadController#index as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_upload_index_html_erb__1060701331_26165370_0 at /Users/philpirj/source/shelf/rails/app/views/upload/index.html.erb:1)
+Rendered upload/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:46:28 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101024-9163-151w5gf-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Completed   in 7ms
+
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  app/controllers/upload_controller.rb:8:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (120.7ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (157.2ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:47:25 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101024-9163-1wh3j0s-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Completed   in 34ms
+
+NameError (undefined local variable or method `tmpfile' for #<UploadController:0x34120b4>):
+  app/controllers/upload_controller.rb:11:in `create'
+  app/controllers/upload_controller.rb:11:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.8ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.7ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 07:48:11 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101024-9163-1clx8iz-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Redirected to http://localhost:3000/upload
+Completed 302 Found in 11ms
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 07:48:12 +0400 2010
+  Processing by UploadController#index as */*
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_upload_index_html_erb__1060701331_26342620_0 at /Users/philpirj/source/shelf/rails/app/views/upload/index.html.erb:1)
+Rendered upload/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 122ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 15:57:13 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101024-9163-m1vkus-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Redirected to http://localhost:3000/upload
+Completed 302 Found in 69ms
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 15:57:14 +0400 2010
+  Processing by UploadController#index as */*
+Rendered upload/index.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 237ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 16:01:30 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101024-9163-1u4d7ly-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Redirected to http://localhost:3000/upload
+Completed 302 Found in 15ms
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:01:31 +0400 2010
+  Processing by UploadController#index as */*
+Rendered upload/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 124ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:01:35 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 57ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Sun Oct 24 16:01:43 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101024-9163-1nzozpw-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Redirected to http://localhost:3000/upload
+Completed 302 Found in 10ms
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:01:43 +0400 2010
+  Processing by UploadController#index as */*
+Rendered upload/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 88ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:01:57 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 139ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:02:17 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 46ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:02:49 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 115ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:03:39 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (70.4ms)
+Completed 200 OK in 102ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download/png-fix.js" for 127.0.0.1 at Sun Oct 24 16:03:45 +0400 2010
+
+ActionController::RoutingError (No route matches "/download/png-fix.js"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:04:26 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 81ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/get/png-fix.js" for 127.0.0.1 at Sun Oct 24 16:04:30 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload/get/png-fix.js"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/upload/get/png-fix.js" for 127.0.0.1 at Sun Oct 24 16:05:18 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload/get/png-fix.js"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/upload/get/png-fix.js" for 127.0.0.1 at Sun Oct 24 16:05:34 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload/get/png-fix.js"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/upload/get/png-fix.js" for 127.0.0.1 at Sun Oct 24 16:06:02 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload/get/png-fix.js"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:06:52 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at Sun Oct 24 16:06:55 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/get/js-func.js" for 127.0.0.1 at Sun Oct 24 16:06:58 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload/get/js-func.js"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 16:07:37 +0400 2010
+
+AbstractController::ActionNotFound (The action 'show' could not be found for UploadController):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (3.0ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 16:07:55 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Completed   in 176ms
+
+ActionView::MissingTemplate (Missing template upload/show with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:js, :html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.0ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 16:08:20 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Completed   in 35ms
+
+ActionView::MissingTemplate (Missing template upload/show with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:js, :html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.4ms)
+
+
+Started GET "/upload?id=js-func.js" for 127.0.0.1 at Sun Oct 24 16:08:42 +0400 2010
+  Processing by UploadController#index as HTML
+  Parameters: {"id"=>"js-func.js"}
+Rendered upload/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 16:08:56 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Completed   in 27ms
+
+ActionView::MissingTemplate (Missing template upload/show with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:js, :html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.1ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 16:10:10 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Completed   in 27ms
+
+ActionView::MissingTemplate (Missing template upload/show with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:js, :html]} in view paths "/Users/philpirj/source/shelf/rails/app/views"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.7ms)
+
+
+Started GET "/upload/js-func.js.23423" for 127.0.0.1 at Sun Oct 24 16:10:18 +0400 2010
+
+ActionController::RoutingError (No route matches "/upload/js-func.js.23423"):
+  
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 19:16:43 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Completed   in 7ms
+
+NameError (undefined local variable or method `filename' for #<UploadController:0x32a62fc>):
+  app/controllers/upload_controller.rb:18:in `show'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.3ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.2ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (217.3ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 19:28:47 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Completed   in 18ms
+
+NameError (undefined local variable or method `attachments' for #<UploadController:0x31935a4>):
+  app/controllers/upload_controller.rb:19:in `show'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (123.4ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1112.9ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 19:32:57 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Sent file upload/js-funcjs (0.8ms)
+Completed   in 5ms
+
+ActionController::MissingFile (Cannot read file upload/js-funcjs):
+  app/controllers/upload_controller.rb:17:in `show'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.6ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.4ms)
+
+
+Started GET "/upload/js-func.js" for 127.0.0.1 at Sun Oct 24 19:33:13 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"js-func"}
+Sent file upload/js-func.js (0.7ms)
+Completed 200 OK in 5ms
+
+
+Started GET "/upload/" for 127.0.0.1 at Sun Oct 24 19:33:24 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 174ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/png-fix.js" for 127.0.0.1 at Sun Oct 24 19:33:27 +0400 2010
+  Processing by UploadController#show as JS
+  Parameters: {"id"=>"png-fix"}
+Sent file upload/png-fix.js (0.7ms)
+Completed 200 OK in 4ms

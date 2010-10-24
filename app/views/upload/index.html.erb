@@ -1,0 +1,9 @@
+<%= form_tag( {:action => 'create'}, {:multipart => true}) do %>
+<%= file_field 'upload', 'file' %>
+<%= submit_tag "Upload" %>
+<% end %>
+<% for file in @files %>
+  <p>
+    <%= link_to "#{file}", "/upload/#{file}" %>
+  </p>
+<% end %>
