@@ -49,7 +49,7 @@ App::Application.configure do
 
   require 'dshelf'
   DistributedShelf::config = {
-    :distributed_path => 'upload',
+    :distributed_path => 'user_upload',
     :storage_url => ENV['DISTRIBUTED_SHELF_URL']
   }
 end
