@@ -5,7 +5,7 @@ class UploadController < ApplicationController
 
   def create
     if params[:upload] and params[:upload][:file]
-      path = File.join('user_upload', params[:upload][:file].original_filename)
+      path = File.join('/user_upload', params[:upload][:file].original_filename)
       File.open(path, "wb") { |f| f.write(params[:upload][:file].read) }
     end
 
@@ -14,6 +14,6 @@ class UploadController < ApplicationController
 
   def show
     name = "#{params[:id]}.#{params[:format]}"
-    send_file File.join('user_upload', name)
+    send_file File.join('/user_upload', name)
   end
 end
