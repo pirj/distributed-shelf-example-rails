@@ -1,6 +1,6 @@
 class UploadController < ApplicationController
   def index
-    @files = begin Dir.entries('user_upload') rescue [] end
+    @files = begin Dir.entries('/user_upload') rescue [] end
   end
 
   def create
