@@ -585,3 +585,22 @@ Started GET "/upload/png-fix.js" for 127.0.0.1 at Sun Oct 24 19:33:27 +0400 2010
   Parameters: {"id"=>"png-fix"}
 Sent file upload/png-fix.js (0.7ms)
 Completed 200 OK in 4ms
+
+
+Started GET "/upload" for 127.0.0.1 at Mon Oct 25 21:58:25 +0400 2010
+  Processing by UploadController#index as HTML
+Rendered upload/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 94ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at Mon Oct 25 21:59:20 +0400 2010
+  Processing by UploadController#create as HTML
+  Parameters: {"commit"=>"Upload", "upload"=>{"file"=>#<File:/tmp/RackMultipart20101025-9602-10teu8i-0>}, "authenticity_token"=>"KZkmKFN++UkbKogw+1Zi9/Y5CAECwQ4QfeYDIm2dCx8=", "utf8"=>"✓"}
+Completed   in 9ms
+
+Errno::ENOENT (No such file or directory - /user_upload/RR.svg):
+  app/controllers/upload_controller.rb:9:in `create'
+
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (43.1ms)
+Rendered /Users/philpirj/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (86.0ms)
