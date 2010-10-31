@@ -6,7 +6,7 @@ class UploadController < ApplicationController
   def create
     if params[:upload] and params[:upload][:file]
       path = File.join('/user_upload', params[:upload][:file].original_filename)
-      File.open(path, "wb") { |f| f.write(params[:upload][:file].read) }
+      File.open(path, "wb") { |f| f.write(File.new(params[:upload][:file]).read) }
     end
 
     redirect_to '/upload'
