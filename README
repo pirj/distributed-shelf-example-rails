@@ -12,5 +12,6 @@ Add to your production.rb:
       :distributed_path => '/remote',
       :storage_url => ENV['DISTRIBUTED_SHELF_URL']
     }
+  Dir.mkdir '/remote'
 
 Replace '/remote' with folder you intend to be stored remotely.
