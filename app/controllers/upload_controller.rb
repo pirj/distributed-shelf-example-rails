@@ -15,6 +15,7 @@ class UploadController < ApplicationController
 
   def show
     name = "#{params[:id]}.#{params[:format]}"
-    send_file File.join('/user_upload', name)
+    path = File.join('/user_upload', name)
+    send_file File.new(path)
   end
 end
