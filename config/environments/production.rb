@@ -52,5 +52,5 @@ App::Application.configure do
     :distributed_path => '/user_upload',
     :storage_url => ENV['DISTRIBUTED_SHELF_URL']
   }
-  Dir.mkdir '/user_upload'
+  Dir.mkdir '/user_upload' unless File.exists?('/user_upload')
 end
